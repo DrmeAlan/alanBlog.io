@@ -1,0 +1,152 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: "等风来"
+subtitle: "等风来不如追风去,追逐的过程就是人生..." 
+description: "问君能有几多愁？恰似bug常酌留"
+keywords: "web开发"
+author: DrmeAlan
+language: zh-Hans
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://drmealan.github.io
+root: /alanBlog.io
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+menu:
+  home: /
+  archives: /archives
+  categories: /categories
+  tags: /tags
+  about: /about
+  search: /search
+  schedule: /schedule
+  sitemap: /sitemap
+  commonweal: /404.html
+  something: /something
+
+menu_icons:
+  enable: true
+  # Icon Mapping
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archives
+  commonweal: heartbeat
+
+# Social links
+social:
+  GitHub: https://github.com/DrmeAlan
+  #Twitter: https://twitter.com/your-user-name
+  #微博: http://weibo.com/your-user-name
+  #豆瓣: http://douban.com/people/your-user-name
+  #知乎: http://www.zhihu.com/people/your-user-name
+# Social Icons
+social_icons:
+  enable: true
+  # Icon Mappings
+  GitHub: github
+  #Twitter: twitter
+  #微博: weibo
+
+reward_comment: "坚持原创技术分享，您的支持将鼓励我继续创作！"
+wechatpay: ../../../../images/wechat-reward-image.jpg
+#alipay: /path/to/alipay-reward-image
+
+
+#侧边栏头像设置
+  #avatar: https://avatars2.githubusercontent.com/u/16433970?s=40&v=4
+
+#Code Highlight theme   Available value;
+#normal | night | night eighties
+highlight_thmeme: night
+
+# canvas_nest
+canvas_nest:
+  enable: true
+  onmobile: true # display on mobile or not
+  color: '0,0,255' # RGB values, use ',' to separate
+  opacity: 0.5 # the opacity of line: 0~1
+  zIndex: -1 # z-index property of the background
+  count: 99 # the number of lines
+# three_waves
+three_waves: true 
+#three_waves: false //关闭动画
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+## landscape
+theme: next
+## Mist  Gemini
+scheme: Pisces
+
+sidebar:
+  position: left
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: git@github.com:DrmeAlan/alanBlog.io.git
+  branch: master
+  message: message
+
