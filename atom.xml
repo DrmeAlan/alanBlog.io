@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>等风来</title>
+  
+  <subtitle>等风来不如追风去,追逐的过程就是人生...</subtitle>
+  <link href="/alanBlog.io/atom.xml" rel="self"/>
+  
+  <link href="https://drmealan.github.io/"/>
+  <updated>2019-05-12T09:55:28.900Z</updated>
+  <id>https://drmealan.github.io/</id>
+  
+  <author>
+    <name>DrmeAlan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://drmealan.github.io/2019/05/12/hello-world/"/>
+    <id>https://drmealan.github.io/2019/05/12/hello-world/</id>
+    <published>2019-05-12T09:55:28.900Z</published>
+    <updated>2019-05-12T09:55:28.900Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
